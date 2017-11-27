@@ -4,9 +4,6 @@ import PropTypes from 'prop-types';
 class FilterItem extends Component {
     constructor(){
         super();
-        this.state = ({
-            filterCount : 5
-        })
         this.handleClick = this.handleClick.bind(this);
     }
     static propTypes = {
